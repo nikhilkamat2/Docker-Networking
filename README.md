@@ -12,6 +12,11 @@ sudo python a.py <numleaf> <numspine> <imagefile> <csvfile>
 eg.
 sudo python a.py 2 2 assignmentimage topology.csv
 
+numleaf = number of leaf containers
+numspine = number of spine containers
+imagefile = image file used for docker containers
+csvfile = contains data of containers and their networks
+
 Overview:
 Python Program creates container leaf-spine topology,
 accepts input from csv file specifying containers and networks ( L2, L3, Vxlan, GRE ) used to connect them to each other,
