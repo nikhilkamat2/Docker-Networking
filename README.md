@@ -22,13 +22,13 @@ eg.
 sudo python a.py 2 2 assignmentimage topology.csv
 ```
 
-numleaf = number of leaf containers<br/>  
+numleaf = number of leaf containers<br/>
 numspine = number of spine containers<br/>
 imagefile = image file used for docker containers<br/>
 csvfile = contains data of containers and their networks<br/>
   
 ```  
-sh del.sh' 
+sh del.sh 
 ````
 removes the creaated containers, and networking devices for the above command, for the given csvfile.
 
