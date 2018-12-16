@@ -30,7 +30,7 @@ csvfile = contains data of containers and their networks<br/>
 ```  
 sh del.sh 
 ````
-removes the creaated containers, and networking devices for the above command, for the given csvfile.
+removes the created containers, and networking devices for the above command, for the given csvfile.
 
 ## Working:
 The script uses topology.csv to run<br/>
